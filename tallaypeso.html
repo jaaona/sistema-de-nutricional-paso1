@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>TALLA Y PESO</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+	<div id="page-wrapper">
+	<header id="header">
+	<h1>TALLA Y PESO</h1>
+	<nav id="nav">
+	<ul>
+	<li class="special">
+	<a href="#menu" class="menuToggle"><span>Menu</span></a>
+	<div id="menu">
+	<ul>
+    <li><a href="cable.html">catalogo de Alimentos</a></li>
+    <br>
+	<li><a href="ingresar.html">Regresar</a></li>
+	<br>
+	<li><a href="Inicio.html">Salir del Sistema</a></li>
+    </ul>
+	</div>
+	</li>
+	</ul>
+	</nav>
+	</header>
+	<h1>Peso recomendado</h1>
+ 
+    <form id="formulario">
+        <div>
+            <label>Altura (cm)</label><input type="number" min="1" max="300" name="altura">
+        </div>
+        <div>
+            <label>Edad</label><input type="number" min="1" max="120" name="edad">
+        </div>
+        <div>
+            <label>Sexo</label><input type="radio" name="sexo" value="M" checked>Mujer<input type="radio" name="sexo" value="H">Hombre
+        </div>
+        <div>
+            <label>Peso (kg)</label><input type="number" min="1" max="300" name="peso">
+        </div>
+ 
+        <div id="resultado"></div>
+ 
+        <div>
+            <input type="submit" value="Calcular">
+        </div>
+ 
+    </form>
+ 
+
+	</body>
+	<script src="../todas las pantallas/tallaypeso.js"></script>
+	<script src="assets/js/jquery.min.js"></script><!--estilos jquery-->
+	<script src="assets/js/jquery.scrollex.min.js"></script><!--estilo scrolex-->
+	<script src="assets/js/jquery.scrolly.min.js"></script><!--estilo scrolly-->
+    <script src="assets/js/skel.min.js"></script><!-- estilo skel-->
+	<script src="assets/js/util.js"></script><!--estilo util-->
+	<script src="assets/js/main.js"></script><!--cerebro de los estilos-->
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienvenido</title>
+    <link rel="stylesheet" href="..\todas las pantallas\reloj.css">
+    <link rel="stylesheet" href="..\todas las pantallas\estilos.css">
+    <link href="https://fonts.googleapis.com/css?family= Rubik + Mono + One & display = swap" rel="hoja de estilo">
+</head>
+<body class="contenedor-form" style="text-align: -webkit-center">
+    <table style="width:100%" >
+        <tr>
+            <td style="width:40%;text-align: center;"> 
+                <h1 class="titulo">GUIA NUTRICIONAL PARA DEPORTISTAS</h1>
+                </img>
+            </td> 
+        </tr>
+    </table>
+    <table style="width:100%">
+        <tr>
+            <td style="text-align: -webkit-center">
+                <div>
+                    <img src="../Nueva carpeta/logo-1.png" width="350px" height="350px">
+                    <div >
+                        <h1>Login</h1>
+                        <br>
+                        <form>
+                            <input type="text" placeholder="Usuario" required id="username" name="username">
+                            <input type="password" placeholder="Contraseña" required id="password" name="password">
+                        </form> 
+                    </div>
+                    <label id="mensajeErrorLogin" name="mensajeErrorLogin"
+                        style="background-color:black;color:white; visibility: hidden;">Usuario y/o
+                        Contraseña
+                        Invalidos
+                    </label>
+                    <br>
+                    <br>
+                    <center>
+                        <a onclick="verificarLogin()">
+                            <img src="..\Nueva carpeta\ingresar.png" >
+                        </img></a>
+                        <br>
+                        <br>
+                        <a href="Regristrarte.html">
+                            <img src="..\Nueva carpeta/registrarte ahora.png">
+                        </img></a>
+                    </center>
+                    <br>
+                    <br>
+                    <center>
+                        <h3>Para que no te aburras reproduce nuestro tono y relajate :)</h3>
+                    </center>
+                    <br>
+                    <br>
+                    <center>
+                        <audio controls>
+                            <source src="../Nueva carpeta/musica relajante de 3 minutos,musica relajante para trabajar de 3 minutos,musica para relajarse.mp3" type="audio/mpeg">
+                        </audio>
+                    </center>
+                </div>
+            </td> 
+        </tr>
+    </table>
+    <script src="./login.js"></script>
+</body>
+</html>

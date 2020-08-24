@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="..\todas las pantallas\estilos.css">
+</head>
+<body class="contenedor-form" style="text-align: -webkit-center">
+        <center><a href="Inicio.html"><img src="..\Nueva carpeta\regresar.png" height="20%" width="20%"></a></center>
+    <div>
+     <div class="toggle">
+      <span>Crear Cuenta</span>   
+     </div>
+    <!--<div class="formulario">
+        <h2>Iniciar sesion</h2>
+        <form action="#">
+            <input type="text" placeholder="Usuario" required>
+            <input type="password" placeholder="Contraseña" requeried>
+            <input type="submit" value="Inciar Sesion">
+        </form> 
+     </div-->
+     <div class="formulario" style="text-align: -webkit-center">
+        <h2>Crea tu cuenta</h2>
+        <form action="#">
+            <input id="usernamer" name="usernamer" type="text" placeholder="Usuario" required >
+            <input id="passwordr" name="passwordr" type="password" placeholder="Contraseña" required >
+            <input id="emailr" name="emailr" type="email" placeholder="Correo Electronico" >
+            <input id="telefonor" name="telefonor" type="text" placeholder="Telefono" required >
+            <a onclick="Registrar()" id="registrarte">
+                <img src="..\Nueva carpeta/registrarte ahora.png" width="85px" height="40px"></img>
+            </a>
+        </form> 
+     </div>
+      
+     <!--<div class="reset-password"> 
+         <a href="#">Olvide mi contraseña</a>
+     </div>-->
+    </div>
+    <center><img src="../Nueva carpeta/logo-1.png"  width="400px" height="200px"></center>
+    <script src="..\todas las pantallas\jquery-3.1.1.min.js"></script>     
+    <script src="..\todas las pantallas\main.js"></script>
+    <script src="..\todas las pantallas\login.js"></script>
+</body>
+</html>
